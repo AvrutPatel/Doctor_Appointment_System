@@ -1,4 +1,4 @@
-import axios from "axios";
+import axios from "../axiosConfig";
 import { createContext, useState } from "react";
 import {toast} from 'react-toastify'
 

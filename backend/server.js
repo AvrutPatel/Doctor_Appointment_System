@@ -16,8 +16,8 @@ connectCloudinary()
 const allowedOrigins = [
   'http://localhost:5173', // Local client
   'http://localhost:5174', // Local admin
-  'https://your-client-app-name.netlify.app', // Deployed client
-  'https://your-admin-app-name.netlify.app'  // Deployed admin
+  'https://doctor-appointment-system-fawn.vercel.app', // Deployed client
+  'https://doctor-appointment-system-uhkg.vercel.app'  // Deployed admin
 ];
 
 app.use(cors({
